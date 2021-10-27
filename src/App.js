@@ -21,7 +21,7 @@ function App() {
   return (
     <CartContext.Provider value={{ cart, setCart }}>
       <AuthContext.Provider value={{ user, setUser }}>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div>
             <Switch>
               <Route path="/admin/product/edit/:id">
