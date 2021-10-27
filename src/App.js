@@ -21,45 +21,43 @@ function App() {
   return (
     <CartContext.Provider value={{ cart, setCart }}>
       <AuthContext.Provider value={{ user, setUser }}>
-        <Router basename={process.env.PUBLIC_URL}>
-          <div>
-            <Switch>
-              <Route path="/admin/product/edit/:id">
-                <AdminProductEdit></AdminProductEdit>
-              </Route>
-              <Route path="/admin/product/add">
-                <AdminProductAdd />
-              </Route>
-              <Route path="/admin/product">
-                <AdminProductAll />
-              </Route>
-              <Route path="/admin">
-                <AdminOrder />
-              </Route>
-              <Route path="/cart/:id">
-                <Cart />
-              </Route>
-              <Route path="/stationary/:id">
-                <ProPageStationary />
-              </Route>
-              <Route path="/login">
-                <LogIn />
-              </Route>
-              <Route path="/join">
-                <Join />
-              </Route>
-              <Route path="/books">
-                <BooksPage />
-              </Route>
-              <Route path="/stationaries">
-                <StationariesPage />
-              </Route>
-              <Route path="/">
-                <HomePage />
-              </Route>
-            </Switch>
-          </div>
-        </Router>
+        <div>
+          <Switch>
+            <Route path="/admin/product/edit/:id">
+              <AdminProductEdit></AdminProductEdit>
+            </Route>
+            <Route path="/admin/product/add">
+              <AdminProductAdd />
+            </Route>
+            <Route path="/admin/product">
+              <AdminProductAll />
+            </Route>
+            <Route path="/admin">
+              <AdminOrder />
+            </Route>
+            <Route path="/cart/:id">
+              <Cart />
+            </Route>
+            <Route path="/stationary/:id">
+              <ProPageStationary />
+            </Route>
+            <Route path="/login">
+              <LogIn />
+            </Route>
+            <Route path="/join">
+              <Join />
+            </Route>
+            <Route path="/books">
+              <BooksPage />
+            </Route>
+            <Route path="/stationaries">
+              <StationariesPage />
+            </Route>
+            <Route path="/">
+              <HomePage />
+            </Route>
+          </Switch>
+        </div>
       </AuthContext.Provider>
     </CartContext.Provider>
   );
