@@ -58,7 +58,10 @@ function NavBar() {
         </div>
         <div>
           <span>
-            <a className="ftsz-24 ft-TC" href="/fujibookshop/stationaries">
+            <a
+              className="ftsz-24 ft-TC"
+              href="https://powerfultraveling.github.io/fujibookshop/"
+            >
               文具
             </a>
           </span>
