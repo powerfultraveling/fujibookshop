@@ -51,14 +51,14 @@ function NavBar() {
         </div>
         <div>
           <span>
-            <a className="ftsz-24 ft-TC" href="fujibookshop/books">
+            <a className="ftsz-24 ft-TC" href="/fujibookshop/books">
               書籍
             </a>
           </span>
         </div>
         <div>
           <span>
-            <a className="ftsz-24 ft-TC" href="fujibookshop/stationaries">
+            <a className="ftsz-24 ft-TC" href="/fujibookshop/stationaries">
               文具
             </a>
           </span>
