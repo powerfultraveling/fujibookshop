@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fujibookshop/static/css/main.84bffae6.chunk.css",
-    "main.js": "/fujibookshop/static/js/main.a7331f09.chunk.js",
-    "main.js.map": "/fujibookshop/static/js/main.a7331f09.chunk.js.map",
+    "main.js": "/fujibookshop/static/js/main.d3c8d8e5.chunk.js",
+    "main.js.map": "/fujibookshop/static/js/main.d3c8d8e5.chunk.js.map",
     "runtime-main.js": "/fujibookshop/static/js/runtime-main.03173342.js",
     "runtime-main.js.map": "/fujibookshop/static/js/runtime-main.03173342.js.map",
     "static/js/2.a69633ff.chunk.js": "/fujibookshop/static/js/2.a69633ff.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.03173342.js",
     "static/js/2.a69633ff.chunk.js",
     "static/css/main.84bffae6.chunk.css",
-    "static/js/main.a7331f09.chunk.js"
+    "static/js/main.d3c8d8e5.chunk.js"
   ]
 }
